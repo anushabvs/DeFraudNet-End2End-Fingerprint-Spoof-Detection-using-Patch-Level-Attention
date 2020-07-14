@@ -6,6 +6,6 @@ Fingerprint spoofing is a technique in which fake fingerprints are created or ob
 ## DeFraudNet Network Overview
 
 DefraudNet network mainly uses DenseNets as the base networks. The complete overview of the network can be seen in the figure below.
-Inline-style: 
+ 
 ![alt text](https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Images/Defraudnet_network.png "Figure.1. DeFraudNet complete network")
 
