@@ -4,11 +4,8 @@ from __future__ import print_function
 import numpy.random as rng
 import numpy as np
 import pdb
-import os
-import sys
+import os,sys
 import pickle
-import numpy as np # linear algebra
-#import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 import matplotlib.pyplot as plt
 from PIL import Image
 
@@ -90,7 +87,6 @@ class fingerprint_data(Dataset):
         # load image as ndarray type (Height * Width * Channels)
         # be careful for converting dtype to np.uint8 [Unsigned integer (0 to 255)]
         # in this example, we use ToTensor(), so we define the numpy array like (H, W, C)
-	#for i in range(len(self.data)):
         img = self.data[index].reshape(224,224,3)
         label = self.classes_no[index]
 	imgs,labels = patches(img,label)
