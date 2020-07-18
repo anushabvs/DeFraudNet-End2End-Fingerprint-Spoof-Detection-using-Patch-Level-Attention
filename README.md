@@ -9,3 +9,4 @@ DefraudNet network mainly uses DenseNets as the base networks. The complete over
  
 ![alt text](https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Images/Defraudnet_network.png "Figure.1. DeFraudNet complete network")
 
+Defraudnet first takes in the raw fingerprint as a input. This fingerprint is pre-processed using Gabor filters and LBP to bring out additional textural features. After pre-rpocessing, the data is passed on for patch extraction where *n* patches are extracted for each fingerprint. This is followed by simultaneous training of two DenseNets for whole image and patch-based feature extractions. After the feature map extraction, channel, spatial and patch attention are performed on the patches. This is followed by the final step of patch feature fusion with the whole image and classification. 
