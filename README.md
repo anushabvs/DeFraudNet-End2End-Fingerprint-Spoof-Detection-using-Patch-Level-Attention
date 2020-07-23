@@ -33,28 +33,11 @@ This network is trained and tested on four publically available datasets: LivDet
  Table.1. Same-Material Network Performance
 </p>
 
-<p align="center">
- <img src="https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Images/cross-material_network_performance.png" height="220" width="380"> <img src="https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Images/cross-sensor_network_performance.png" height="290" width="600">
-</p>
-
-<p align="center">
- Table.2. Cross-Material Network Performance
-</p>
-
-
- <img src="https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Images/cross-sensor_network_performance.png" height="220" width="500" hspace="10"/> <img src="https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Images/cross-dataset_network_performance.png" height="220" width="390">
+<img src="https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Images/cross-sensor_network_performance.png" height="220" width="500" hspace="15"/> <img src="https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Images/cross-dataset_network_performance.png" height="220" width="390">
 
 
 <p align="center">
  Table.3. Cross-Sensor Network Performance
-</p>
-
-<p align="center">
- <img src="https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Images/cross-dataset_network_performance.png" height="220" width="390">
-</p>
-
-<p align="center">
- Table.4. Cross-Dataset Network Performance
 </p>
 
 Plots showing the results in the above tables are given below.
