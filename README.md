@@ -18,14 +18,16 @@ This network is trained and tested on four publically available datasets: LivDet
 
 <img src="https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Images/Same-material_network_performance.png" height="250" width="500">
 
-*image_caption*
+*Table.1. Same-Material Network Performance*
 
 <img src="https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Images/cross-material_network_performance.png" height="220" width="380">
 
-*image_caption*
+*Table.2. Cross-Material Network Performance*
 
 <img src="https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Images/cross-sensor_network_performance.png" height="300" width="600">
-*image_caption*
+
+*Table.3. Cross-Sensor Network Performance*
 
 <img src="https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Images/cross-dataset_network_performance.png" height="220" width="390">
 
+*Table.4. Cross-Dataset Network Performance*
