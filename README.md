@@ -15,10 +15,17 @@ Defraudnet first takes in the raw fingerprint as a input. This fingerprint is pr
 We can see from Figure.2. that even though the network is not initialized with minutiae points, while training, the model inherently learns and considers regions close to minutiae points as an important feature for spoof detection. These inherent minutiae based features obtained by the network help in obtaining improved cross-sensor, cross-material and cross-dataset results.
 ## Results and Analysis
 This network is trained and tested on four publically available datasets: LivDet 2017, LivDet 2015, LiveDet 2013 and LivDet 2011. Exhaustive experimentation and comparision has been done on these four datasets and the network is tested for it's cross-material, cross-sensor and cross-dataset performance. The comparative results obtained by DeFraudNet can be seen below.
-![Alt Text 1](https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Images/Same-material_network_performance "Table.1. Same-Material Results")
 
-![Alt Text 2](https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Images/cross-material_network_performance "Table.2. Cross-Material Results")
+<img src="https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Images/Same-material_network_performance.png" height="250" width="500">
 
-![Alt Text 3](https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Images/cross-sensor_network_performance "Table.3. Cross-Sensor Results")
+*image_caption*
 
-![Alt Text 4](https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Images/cross-dataset_network_performance "Table.4. Cross-Dataset Results")
+<img src="https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Images/cross-material_network_performance.png" height="220" width="380">
+
+*image_caption*
+
+<img src="https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Images/cross-sensor_network_performance.png" height="300" width="600">
+*image_caption*
+
+<img src="https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Images/cross-dataset_network_performance.png" height="220" width="390">
+
