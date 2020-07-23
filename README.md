@@ -30,16 +30,49 @@ This network is trained and tested on four publically available datasets: LivDet
  <img src="https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Images/Same-material_network_performance.png" height="240" width="450" hspace="20"/> <img src="https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Images/cross-material_network_performance.png" height="220" width="380"> 
  
 <p align="center">
- Table.1. Same-Material Network Performance
+ Table.1. Same-Material and Cross-Material Network Performance
 </p>
 
 <img src="https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Images/cross-sensor_network_performance.png" height="220" width="500" hspace="15"/> <img src="https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Images/cross-dataset_network_performance.png" height="220" width="390">
 
 
 <p align="center">
- Table.3. Cross-Sensor Network Performance
+ Table.2. Cross-Sensor and Cross-Dataset Network Performance
 </p>
 
 Plots showing the results in the above tables are given below.
 
 <img src="https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Plots/Intra-sensor_ACE.png" height="225" width="300"/> <img src= "https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Plots/Cross-sensor_ACE.png" width="300"/> <img src= "https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Plots/Cross-Dataset_ACE.png" height="225" width="310"/>
+
+<p align="center">
+ Figure.3. Plots for intra-sensor, cross-sensor and cross-dataset network performance
+</p>
+### Requirements
+
+* [Pytorch](https://pytorch.org/)
+
+Optional
+
+* [tensorboard_logger](https://github.com/TeamHG-Memex/tensorboard_logger)
+
+### Cite
+If you use DeFraudNet in your work, please cite the original paper as:
+```
+@inproceedings{anusha2020defraudnet,
+  title={DeFraudNet: End2End Fingerprint Spoof Detection using Patch Level Attention},
+  author={Anusha, BVS and Banerjee, Sayan and Chaudhuri, Subhasis},
+  booktitle={2020 IEEE Winter Conference on Applications of Computer Vision (WACV)},
+  pages={2684--2693},
+  year={2020},
+  organization={IEEE}
+}
+```
+
+### References
+
+
+[1] Huang, G., Liu, Z., Weinberger, K. Q., & van der Maaten, L. (2016). Densely connected convolutional networks. arXiv preprint arXiv:1608.06993.
+
+[2] T. Chugh, K. Cao, and A. K. Jain. Fingerprint spoof buster. ArXiv, abs/1712.04489, 2017.
+
+[3] R. Nogueira, R. Lotufo, and R. Machado. Fingerprint liveness detection using convolutional neural networks. IEEE Transactions on Information Forensics and Security, 11:1–1, 06 2016.
