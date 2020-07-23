@@ -27,7 +27,7 @@ We can see from Figure.2. that even though the network is not initialized with m
 ## Results and Analysis
 This network is trained and tested on four publically available datasets: LivDet 2017, LivDet 2015, LiveDet 2013 and LivDet 2011. Exhaustive experimentation and comparision has been done on these four datasets and the network is tested for it's cross-material, cross-sensor and cross-dataset performance. The comparative results obtained by DeFraudNet can be seen below.
 
- <img src="https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Images/Same-material_network_performance.png" height="240" width="450" hspace="20"/> <img src="https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Images/cross-material_network_performance.png" height="220" width="380"> 
+ <img align="left" src="https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Images/Same-material_network_performance.png" height="240" width="440" hspace="10"/> <img align="right" src="https://github.com/anushabvs/DeFraudNet-End2End-Fingerprint-Spoof-Detection-using-Patch-Level-Attention/blob/master/Images/cross-material_network_performance.png" height="220" width="380"> 
  
 <p align="center">
  Table.1. Same-Material and Cross-Material Network Performance
