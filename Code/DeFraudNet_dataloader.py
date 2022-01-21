@@ -53,12 +53,12 @@ def patches(img,label):
 #path consists of training or testing directory##
 class fingerprint_data(Dataset):
     def __init__(self, path, transform=None,patch_transform = None):
-        self.data = {}
-	self.classes = {}
-	self.authentication = {}
-	self.classes_no = {}
-	self.auth_no = {}
-	self.categories = {}
+        self.data = {}                         #Fingerprint data
+	self.classes = {}                      #Type of fingerprint category: Real,Latex,Gummy,Ecoflex etc
+	self.authentication = {}               # Identity of the person
+	self.classes_no = {}                   # Whether sample is Live/Fake
+	self.auth_no = {}                      #Required for Fingerprint authentication
+	self.categories = {}                   #Type of the fingerprint sensor
         file_path = os.path.join(path,"image_type_classes.txt" )
         with open(file_path,'rb') as f:
             self.classes = pickle.load(f)
